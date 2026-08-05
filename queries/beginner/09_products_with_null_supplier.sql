@@ -9,3 +9,6 @@ Concepts Used:
 - WHERE
 - IS NULL
 */
+SELECT *
+FROM Products
+WHERE SupplierID IS NULL;
