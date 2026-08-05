@@ -8,3 +8,6 @@ Concepts Used:
 - SELECT
 - ORDER BY
 */
+SELECT ProductID, ProductName
+FROM Products
+ORDER BY ProductName ASC;
