@@ -1,0 +1,16 @@
+/*
+Problem 06: Top 5 Most Expensive Products
+
+Objective:
+Retrieve the ProductName and UnitPrice of the five most expensive products.
+
+Concepts Used:
+- SELECT
+- ORDER BY
+- LIMIT
+*/
+
+SELECT ProductName, UnitPrice
+FROM Products
+ORDER BY UnitPrice DESC
+LIMIT 5;
